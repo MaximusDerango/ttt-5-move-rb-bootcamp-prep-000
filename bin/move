@@ -7,3 +7,4 @@ board = [" "]*9
 puts "Welcome to Tic Tac Toe!"
 spot = gets.strip()
 index = input_to_index(spot)
+move(index)
