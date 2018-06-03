@@ -3,8 +3,8 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
-board = [" "]*9
 puts "Welcome to Tic Tac Toe!"
+board = [" "]*9
 spot = gets.strip()
 index = input_to_index(spot)
 move(index)
